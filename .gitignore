@@ -4,3 +4,5 @@
 *.kicad_sch-bak
 *-backups/
 fp-info-cache
+.history/
+
