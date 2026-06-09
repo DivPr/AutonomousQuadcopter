@@ -46,6 +46,36 @@
 				(justify left top)
 			)
 		)
+		(pin "BARO_INT" input
+			(at 91.44 48.26 0)
+			(uuid "80d8fd98-d7ae-4341-8639-aa983913593c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCK" input
+			(at 91.44 50.8 0)
+			(uuid "c8f2b756-f386-4aaf-8157-4cfa93288c11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDI" input
+			(at 91.44 53.34 0)
+			(uuid "d0211654-8b8b-497c-b1f8-5274a2da111e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "FlightControllerPCB"
 				(path "/76f1a6d4-2c8f-4e0d-a089-f3ef3841ff54"
