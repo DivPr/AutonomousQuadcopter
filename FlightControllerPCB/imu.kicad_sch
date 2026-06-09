@@ -1467,14 +1467,14 @@
 		(uuid "e434dca4-7b83-44c5-a05f-a691aeb7d0e5")
 	)
 	(junction
-		(at 124.46 142.24)
+		(at 111.76 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8cca53f-a358-456b-a3e0-677d86e53085")
 	)
 	(wire
 		(pts
-			(xy 132.08 142.24) (xy 124.46 142.24)
+			(xy 119.38 133.35) (xy 111.76 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1524,7 +1524,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 144.78) (xy 132.08 142.24)
+			(xy 119.38 135.89) (xy 119.38 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1554,7 +1554,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 142.24) (xy 124.46 144.78)
+			(xy 111.76 133.35) (xy 111.76 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1584,7 +1584,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 138.43) (xy 124.46 142.24)
+			(xy 111.76 129.54) (xy 111.76 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1594,7 +1594,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 152.4) (xy 140.97 152.4)
+			(xy 124.46 143.51) (xy 128.27 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1604,7 +1604,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 152.4) (xy 127 152.4)
+			(xy 111.76 143.51) (xy 114.3 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2218,7 +2218,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 140.97 144.78 0)
+		(at 128.27 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2229,7 +2229,7 @@
 		(fields_autoplaced yes)
 		(uuid "31a245fb-76b3-475e-9c2c-8dc1c4b31db3")
 		(property "Reference" "#PWR014"
-			(at 140.97 148.59 0)
+			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2240,7 +2240,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 140.97 139.7 0)
+			(at 128.27 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2250,7 +2250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 144.78 0)
+			(at 128.27 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2261,7 +2261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 144.78 0)
+			(at 128.27 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2272,7 +2272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 140.97 144.78 0)
+			(at 128.27 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2618,7 +2618,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 148.59 0)
+		(at 111.76 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2628,7 +2628,7 @@
 		(dnp no)
 		(uuid "6d035508-1a28-4683-ab15-5d3e29e988fb")
 		(property "Reference" "R2"
-			(at 127 147.3199 0)
+			(at 114.3 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2639,7 +2639,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 124.46 150.622 90)
+			(at 111.76 141.732 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2650,7 +2650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.682 148.59 90)
+			(at 109.982 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,7 +2661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 148.59 0)
+			(at 111.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2672,7 +2672,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 148.59 0)
+			(at 111.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2699,7 +2699,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 148.59 0)
+		(at 128.27 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2709,7 +2709,7 @@
 		(dnp no)
 		(uuid "6d5823a7-b360-4cc0-a987-6c8086f5e7fd")
 		(property "Reference" "R3"
-			(at 143.51 147.3199 0)
+			(at 130.81 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2720,7 +2720,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 140.97 150.622 90)
+			(at 128.27 141.732 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2731,7 +2731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.192 148.59 90)
+			(at 126.492 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2742,7 +2742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 148.59 0)
+			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2753,7 +2753,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 148.59 0)
+			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3216,7 +3216,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 132.08 149.86 270)
+		(at 119.38 140.97 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3226,7 +3226,7 @@
 		(dnp no)
 		(uuid "a68e6499-8174-4a40-8478-2549f2d2e75e")
 		(property "Reference" "Q1"
-			(at 132.842 154.432 0)
+			(at 120.142 145.542 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3237,7 +3237,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 121.666 155.956 90)
+			(at 108.966 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3248,7 +3248,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 130.175 154.94 0)
+			(at 117.475 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3261,7 +3261,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 128.27 154.94 0)
+			(at 115.57 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3273,7 +3273,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 132.08 149.86 0)
+			(at 119.38 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3693,7 +3693,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 124.46 138.43 0)
+		(at 111.76 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3703,7 +3703,7 @@
 		(dnp no)
 		(uuid "e7b797d2-e941-43d7-8df0-98a7f4407edd")
 		(property "Reference" "#PWR010"
-			(at 124.46 142.24 0)
+			(at 111.76 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3714,7 +3714,7 @@
 			)
 		)
 		(property "Value" "+1.8V"
-			(at 121.412 134.112 0)
+			(at 108.712 125.222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3725,7 +3725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 138.43 0)
+			(at 111.76 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +3736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 138.43 0)
+			(at 111.76 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3747,7 +3747,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 124.46 138.43 0)
+			(at 111.76 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
