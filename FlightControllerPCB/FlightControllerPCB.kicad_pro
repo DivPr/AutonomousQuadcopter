@@ -416,7 +416,7 @@
         "uuid": "76f1a6d4-2c8f-4e0d-a089-f3ef3841ff54"
       }
     ],
-    "used_designators": "#PWR17-22,R1,R7-8,C1,C6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -431,6 +431,14 @@
     [
       "d690a6d9-80e0-4619-9400-20c53787821a",
       "IMU"
+    ],
+    [
+      "b7a35418-e5ab-404f-94bf-680298448996",
+      "MCU"
+    ],
+    [
+      "168bd3e0-bed1-4863-a488-3b5ff5ed7d5b",
+      "USB+POWER"
     ]
   ],
   "text_variables": {},
