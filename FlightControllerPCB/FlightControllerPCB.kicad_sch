@@ -213,6 +213,52 @@
 			)
 		)
 	)
+	(sheet
+		(at 40.64 107.95)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dd7677ae-3037-44a6-b30f-cc3f6551e6da")
+		(property "Sheetname" "Magnometer"
+			(at 40.64 107.2384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mag.kicad_sch"
+			(at 40.64 133.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FlightControllerPCB"
+				(path "/76f1a6d4-2c8f-4e0d-a089-f3ef3841ff54"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
