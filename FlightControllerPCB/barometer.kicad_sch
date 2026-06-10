@@ -1110,7 +1110,7 @@
 		)
 		(uuid "f6a86f5d-a520-4c07-afd7-f6ae3bb56603")
 	)
-	(hierarchical_label "I2C1_SDI"
+	(hierarchical_label "BARO_SDA"
 		(shape input)
 		(at 105.41 113.03 180)
 		(effects
@@ -1121,7 +1121,7 @@
 		)
 		(uuid "a7b9a661-7368-4c0a-b4bd-87370282daa9")
 	)
-	(hierarchical_label "I2C1_SCK"
+	(hierarchical_label "BARO_SCL"
 		(shape input)
 		(at 105.41 110.49 180)
 		(effects

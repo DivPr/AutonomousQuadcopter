@@ -5,6 +5,254 @@
 	(uuid "76f1a6d4-2c8f-4e0d-a089-f3ef3841ff54")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 80.01 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9745d49-c9d7-464e-b471-4c780c726272")
+	)
+	(junction
+		(at 80.01 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c10f087e-da76-490f-82bb-1de54839af2b")
+	)
+	(junction
+		(at 80.01 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0c2940c-e75b-4b09-89e8-c21082cdf56a")
+	)
+	(wire
+		(pts
+			(xy 63.5 62.23) (xy 39.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aba44fa-0126-42c5-96ac-86c8b25efdbc")
+	)
+	(wire
+		(pts
+			(xy 39.37 30.48) (xy 54.61 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d220fb-6fe6-4eba-a005-0290ddd5b431")
+	)
+	(wire
+		(pts
+			(xy 63.5 25.4) (xy 63.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155e368d-260f-4c06-a0e6-137d12bc1742")
+	)
+	(wire
+		(pts
+			(xy 63.5 25.4) (xy 80.01 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195e5498-6726-4d44-b0e7-8250887984d5")
+	)
+	(wire
+		(pts
+			(xy 74.93 30.48) (xy 80.01 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20062885-2938-4290-ba76-38ebfdba5ef2")
+	)
+	(wire
+		(pts
+			(xy 52.07 17.78) (xy 52.07 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215517dd-0bc8-43c1-8167-aa900fcb7f94")
+	)
+	(wire
+		(pts
+			(xy 80.01 33.02) (xy 77.47 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c34be80-0cad-4fcc-aa38-c4c0a78e8cb3")
+	)
+	(wire
+		(pts
+			(xy 77.47 74.93) (xy 39.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f68245c-0095-4c6e-912f-c9d28099eeed")
+	)
+	(wire
+		(pts
+			(xy 57.15 22.86) (xy 57.15 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f456451-c257-49e3-8cf0-848ae7904661")
+	)
+	(wire
+		(pts
+			(xy 52.07 17.78) (xy 80.01 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aae8d4e-db6d-43b9-ad99-bbfe55d6f486")
+	)
+	(wire
+		(pts
+			(xy 39.37 72.39) (xy 74.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffc351f-1d89-4737-bfe6-32e9ff4d4441")
+	)
+	(wire
+		(pts
+			(xy 77.47 33.02) (xy 77.47 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808e7a83-1373-46b4-b19d-4ff7bd4b1d28")
+	)
+	(wire
+		(pts
+			(xy 72.39 27.94) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82709609-226f-40f4-8cec-fe6692750eb4")
+	)
+	(wire
+		(pts
+			(xy 52.07 27.94) (xy 39.37 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fdce6e-db00-4242-a157-42be61f488ca")
+	)
+	(wire
+		(pts
+			(xy 74.93 72.39) (xy 74.93 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7dc50d-9aed-4228-88f4-6f6c71a40826")
+	)
+	(wire
+		(pts
+			(xy 54.61 20.32) (xy 80.01 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d078c11-26d6-44cb-9185-611d2a8ee49f")
+	)
+	(wire
+		(pts
+			(xy 72.39 27.94) (xy 80.01 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e3daeb-d3c9-4257-897a-fbf21c26fac5")
+	)
+	(wire
+		(pts
+			(xy 80.01 30.48) (xy 80.01 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4662a91-3ef4-4b46-9087-4b7d6bc853e9")
+	)
+	(wire
+		(pts
+			(xy 57.15 22.86) (xy 80.01 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add6d75f-88ba-4c72-bef9-8501da9e5fe3")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 39.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae63b7a1-edab-4674-ab44-78339ed1d220")
+	)
+	(wire
+		(pts
+			(xy 54.61 30.48) (xy 54.61 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5af05e9-f0fa-4b4c-823d-9f516603c0ec")
+	)
+	(wire
+		(pts
+			(xy 80.01 27.94) (xy 80.01 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca260c06-962e-467b-b790-0d04f13c04d1")
+	)
+	(wire
+		(pts
+			(xy 57.15 33.02) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3527e7-b5a6-40ff-b135-2d8b682b39ed")
+	)
 	(sheet
 		(at 247.65 20.32)
 		(size 21.59 83.82)
@@ -105,7 +353,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C1_SCK" input
+		(pin "BARO_SCL" input
 			(at 39.37 30.48 0)
 			(uuid "c8f2b756-f386-4aaf-8157-4cfa93288c11")
 			(effects
@@ -115,7 +363,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C1_SDI" input
+		(pin "BARO_SDA" input
 			(at 39.37 33.02 0)
 			(uuid "d0211654-8b8b-497c-b1f8-5274a2da111e")
 			(effects
@@ -172,6 +420,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BARO_INT" input
+			(at 80.01 17.78 180)
+			(uuid "2dfc3054-0c0e-4401-8e20-7aa81e1d2307")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BARO_SCL" input
+			(at 80.01 20.32 180)
+			(uuid "8730007e-8244-4d16-9527-6732e2d45503")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BARO_SDA" input
+			(at 80.01 22.86 180)
+			(uuid "c963eb10-67f8-4f88-b027-c93eda2effd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_AD0" input
+			(at 80.01 25.4 180)
+			(uuid "b7182688-f10a-4416-bee2-c2a8aa0b1dec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT" input
+			(at 80.01 33.02 180)
+			(uuid "621211d8-1e69-4cbe-b475-853d797950a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_SCL" input
+			(at 80.01 27.94 180)
+			(uuid "b5157742-c7a3-4f37-94ca-c461db7050ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_SDA" input
+			(at 80.01 30.48 180)
+			(uuid "af090ac9-0024-489d-8a13-4c9aec077c77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -283,7 +601,7 @@
 				(justify right)
 			)
 		)
-		(pin "INT" input
+		(pin "IMU_INT" input
 			(at 39.37 74.93 0)
 			(uuid "042b183d-7666-40cb-bb93-4083be9e1d0d")
 			(effects

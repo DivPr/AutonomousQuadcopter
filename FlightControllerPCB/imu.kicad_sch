@@ -1813,7 +1813,7 @@
 		)
 		(uuid "2889b5c1-8983-4264-bfa4-98a5dd57dd81")
 	)
-	(hierarchical_label "INT"
+	(hierarchical_label "IMU_INT"
 		(shape input)
 		(at 90.17 104.14 180)
 		(effects
