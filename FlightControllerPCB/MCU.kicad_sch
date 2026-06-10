@@ -3319,6 +3319,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "- Jeson connector (UART+JST)\n- USB(D+,D-)\n- 6 pin micro JST for GPS\n- extra header + resistors"
+		(exclude_from_sim no)
+		(at 219.456 45.974 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "6cfc28c5-d141-418a-b18b-926551949959")
+	)
 	(junction
 		(at 73.66 27.94)
 		(diameter 0)

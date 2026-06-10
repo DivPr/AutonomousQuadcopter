@@ -484,9 +484,9 @@
 				(justify left)
 			)
 		)
-		(pin "FSYNC" input
+		(pin "IMU_FSYNC" input
 			(at 81.28 25.4 180)
-			(uuid "fdc0c35a-dc53-468d-b38c-49f2957aa1ca")
+			(uuid "db11f822-3255-4f2e-8942-6348d325be2d")
 			(effects
 				(font
 					(size 1.27 1.27)

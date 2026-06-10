@@ -997,6 +997,16 @@
 		)
 		(uuid "345d7520-d279-4d1c-814f-a3e8c2df7cb6")
 	)
+	(text "- MOSFET+Pull ups???\n- quick AI circuit check"
+		(exclude_from_sim no)
+		(at 221.742 61.722 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "50ffbe9c-bb96-4c16-b4d1-b9b65d2f1915")
+	)
 	(text "Looks way different than symbols on Adafruit schematic\n"
 		(exclude_from_sim no)
 		(at 48.768 38.608 0)
