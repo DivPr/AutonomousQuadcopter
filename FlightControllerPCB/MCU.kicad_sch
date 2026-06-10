@@ -3559,6 +3559,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 45.72) (xy 163.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da3308f-79ea-4796-9597-93e3029938fc")
+	)
+	(wire
+		(pts
 			(xy 158.75 142.24) (xy 163.83 142.24)
 		)
 		(stroke
@@ -3823,6 +3833,17 @@
 			(justify left)
 		)
 		(uuid "5f4f9db7-4792-4f70-bd44-74c6e3bde1de")
+	)
+	(hierarchical_label "IMU_FSYNC"
+		(shape input)
+		(at 163.83 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b16d600-fa84-4d1f-8121-e45502a2a349")
 	)
 	(hierarchical_label "SWDIO"
 		(shape input)

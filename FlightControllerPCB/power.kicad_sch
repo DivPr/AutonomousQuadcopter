@@ -2274,6 +2274,200 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:AP2112K-1.8"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -5.08 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP2112K-1.8"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "600mA low dropout linear regulator, with enable pin, 2.5V-6V input voltage range, 1.8V fixed positive output, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?5*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AP2112K-1.8_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2112K-1.8_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -2675,10 +2869,22 @@
 		(uuid "40b9781a-ae6a-4d43-8e2c-bca79c29cc46")
 	)
 	(junction
+		(at 109.22 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "509aed1c-14ea-450d-be69-5e4b1510ab5d")
+	)
+	(junction
 		(at 130.81 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f3186d3-7c44-4e90-94f6-41cf22d6755f")
+	)
+	(junction
+		(at 102.87 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "703c2041-8db2-43bd-8d1f-211c57203bea")
 	)
 	(junction
 		(at 36.83 168.91)
@@ -2697,6 +2903,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b079be7-7888-49cd-970a-2f0f0460346c")
+	)
+	(junction
+		(at 102.87 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6ad3d17-c476-4542-9fe3-da34d6bd1695")
 	)
 	(junction
 		(at 67.31 137.16)
@@ -2767,6 +2979,16 @@
 			(type default)
 		)
 		(uuid "01aea503-d950-465a-a609-2b23ecb85f2a")
+	)
+	(wire
+		(pts
+			(xy 102.87 146.05) (xy 109.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0677f421-b133-4655-bfb8-fe3f5ed92708")
 	)
 	(wire
 		(pts
@@ -2950,6 +3172,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 148.59) (xy 109.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862c0f03-55ae-416d-8250-1ea4a3b4436c")
+	)
+	(wire
+		(pts
 			(xy 59.69 176.53) (xy 57.15 176.53)
 		)
 		(stroke
@@ -2980,6 +3212,26 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 156.21) (xy 119.38 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9355809e-4151-45b6-8ef8-566e6b4d5370")
+	)
+	(wire
+		(pts
+			(xy 102.87 142.24) (xy 102.87 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940f73d7-575e-4eb4-aed1-b15c280c8b83")
+	)
+	(wire
+		(pts
 			(xy 67.31 138.43) (xy 67.31 137.16)
 		)
 		(stroke
@@ -2987,6 +3239,16 @@
 			(type default)
 		)
 		(uuid "97cf021f-4ad5-41ae-b15c-2a220b73ba5c")
+	)
+	(wire
+		(pts
+			(xy 111.76 148.59) (xy 109.22 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b73ad6a-7a79-40f7-95af-ec1131bdfd50")
 	)
 	(wire
 		(pts
@@ -3037,6 +3299,26 @@
 			(type default)
 		)
 		(uuid "b7787743-8f2c-42a9-9c72-828039784aa8")
+	)
+	(wire
+		(pts
+			(xy 109.22 146.05) (xy 111.76 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d8bc88-03e7-408b-93a4-50ac62b92c86")
+	)
+	(wire
+		(pts
+			(xy 102.87 153.67) (xy 102.87 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47236f2-8097-4927-9416-9ac25ae7b956")
 	)
 	(wire
 		(pts
@@ -3267,6 +3549,84 @@
 			(project "FlightControllerPCB"
 				(path "/76f1a6d4-2c8f-4e0d-a089-f3ef3841ff54/168bd3e0-bed1-4863-a488-3b5ff5ed7d5b"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "141d3152-8120-46e0-ac75-993afc4d5e57")
+		(property "Reference" "#PWR09"
+			(at 102.87 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7da6c2af-aea2-436f-acc3-de503220cd02")
+		)
+		(instances
+			(project "FlightControllerPCB"
+				(path "/76f1a6d4-2c8f-4e0d-a089-f3ef3841ff54/168bd3e0-bed1-4863-a488-3b5ff5ed7d5b"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4192,6 +4552,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 127 146.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adfab0af-5366-480c-88a3-d4e8d536e46e")
+		(property "Reference" "#PWR08"
+			(at 123.19 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1.8V"
+			(at 130.81 146.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 127 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7507930-f6f0-4e8c-8b3b-25e1e352688a")
+		)
+		(instances
+			(project "FlightControllerPCB"
+				(path "/76f1a6d4-2c8f-4e0d-a089-f3ef3841ff54/168bd3e0-bed1-4863-a488-3b5ff5ed7d5b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:D3V3XA4B10LP")
 		(at 72.39 173.99 0)
 		(unit 1)
@@ -4296,6 +4735,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 102.87 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7b245a6-f51f-4fde-914a-2b70b0f93c45")
+		(property "Reference" "C5"
+			(at 96.266 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 96.266 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.8352 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2633615-4b92-40b2-9f53-943dc23bc3f6")
+		)
+		(pin "2"
+			(uuid "15e770fd-f4db-45c3-9c15-d62683781659")
+		)
+		(instances
+			(project "FlightControllerPCB"
+				(path "/76f1a6d4-2c8f-4e0d-a089-f3ef3841ff54/168bd3e0-bed1-4863-a488-3b5ff5ed7d5b"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 102.87 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3b1b95e-0514-43d1-8a7a-ae9f8c7d393d")
+		(property "Reference" "#PWR013"
+			(at 106.68 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 96.52 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 102.87 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5732a030-c046-4b04-a0ab-1e78b2a6bce8")
+		)
+		(instances
+			(project "FlightControllerPCB"
+				(path "/76f1a6d4-2c8f-4e0d-a089-f3ef3841ff54/168bd3e0-bed1-4863-a488-3b5ff5ed7d5b"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 137.16 176.53 180)
 		(unit 1)
@@ -4380,6 +4977,95 @@
 			(project "FlightControllerPCB"
 				(path "/76f1a6d4-2c8f-4e0d-a089-f3ef3841ff54/168bd3e0-bed1-4863-a488-3b5ff5ed7d5b"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2112K-1.8")
+		(at 119.38 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f16239f8-5081-417e-9a2a-ab7db44df2dc")
+		(property "Reference" "U2"
+			(at 119.38 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-1.8"
+			(at 119.38 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 119.38 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(at 119.38 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "600mA low dropout linear regulator, with enable pin, 2.5V-6V input voltage range, 1.8V fixed positive output, SOT-23-5"
+			(at 119.38 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddb721e5-61ec-497e-ab00-34370af40dd7")
+		)
+		(pin "5"
+			(uuid "f194c5c6-31a9-47ce-9b35-8ad66f10410b")
+		)
+		(pin "2"
+			(uuid "d4062225-e1b3-45a2-bb6a-25ca45219594")
+		)
+		(pin "3"
+			(uuid "5e8e230e-b391-49dc-9e57-28151693a3a5")
+		)
+		(pin "4"
+			(uuid "a1ef59a1-96ef-4781-ba51-30c00197079b")
+		)
+		(instances
+			(project "FlightControllerPCB"
+				(path "/76f1a6d4-2c8f-4e0d-a089-f3ef3841ff54/168bd3e0-bed1-4863-a488-3b5ff5ed7d5b"
+					(reference "U2")
 					(unit 1)
 				)
 			)
