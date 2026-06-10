@@ -987,17 +987,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "8 pins on footprint vs 10 pins (8/9 are GND)\n"
-		(exclude_from_sim no)
-		(at 44.196 32.512 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "345d7520-d279-4d1c-814f-a3e8c2df7cb6")
-	)
-	(text "- MOSFET+Pull ups???\n- quick AI circuit check"
+	(text "- MOSFET+Pull ups???\n- Sanity Check"
 		(exclude_from_sim no)
 		(at 221.742 61.722 0)
 		(effects
@@ -1006,36 +996,6 @@
 			)
 		)
 		(uuid "50ffbe9c-bb96-4c16-b4d1-b9b65d2f1915")
-	)
-	(text "Looks way different than symbols on Adafruit schematic\n"
-		(exclude_from_sim no)
-		(at 48.768 38.608 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "909c6718-3182-4ee7-9bbe-c25b68d99055")
-	)
-	(text "Not sure what is up in the top right corner with the capicators/GNDs\n\n"
-		(exclude_from_sim no)
-		(at 55.372 45.212 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bb5a299a-02d3-4c9b-8284-62742c6b790f")
-	)
-	(text "Notes for rohith to look over:\n"
-		(exclude_from_sim no)
-		(at 30.226 22.098 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d6678638-d700-4380-a1ca-5a07323803ec")
 	)
 	(junction
 		(at 181.61 88.9)

@@ -881,7 +881,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "- MOSFET+Pull ups???\n- quick AI circuit check\n- RESV check"
+	(text "- MOSFET+Pull ups???\n- Sanity check\n- RESV check"
 		(exclude_from_sim no)
 		(at 181.61 65.024 0)
 		(effects

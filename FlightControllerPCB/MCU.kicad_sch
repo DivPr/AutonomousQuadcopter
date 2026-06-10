@@ -3319,6 +3319,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "- RC conn"
+		(exclude_from_sim no)
+		(at 203.2 56.896 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "190b6c3e-0c60-4c26-8e97-de41b03ce55b")
+	)
 	(text "- Jeson connector (UART+JST)\n- USB(D+,D-)\n- 6 pin micro JST for GPS\n- extra header + resistors"
 		(exclude_from_sim no)
 		(at 219.456 45.974 0)
@@ -3489,6 +3499,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 71.12) (xy 158.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f50ccfb-8e64-4753-a1ff-d18bb55de1d6")
+	)
+	(wire
+		(pts
 			(xy 123.19 20.32) (xy 128.27 20.32)
 		)
 		(stroke
@@ -3529,6 +3549,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 114.3) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586a0c3d-0dd7-404b-92e2-ca247487ebbb")
+	)
+	(wire
+		(pts
 			(xy 104.14 27.94) (xy 114.3 27.94)
 		)
 		(stroke
@@ -3549,6 +3579,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 116.84) (xy 158.75 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6636c0ed-9134-414a-98cd-74682bda0717")
+	)
+	(wire
+		(pts
 			(xy 138.43 33.02) (xy 140.97 33.02)
 		)
 		(stroke
@@ -3566,6 +3606,16 @@
 			(type default)
 		)
 		(uuid "7283e865-92e9-4e8d-b566-90c39e137456")
+	)
+	(wire
+		(pts
+			(xy 163.83 119.38) (xy 158.75 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768b4bac-8d15-4a40-9c13-38e72348c90c")
 	)
 	(wire
 		(pts
@@ -3606,6 +3656,16 @@
 			(type default)
 		)
 		(uuid "8a869312-461f-4480-9bfd-e43e1278a849")
+	)
+	(wire
+		(pts
+			(xy 163.83 111.76) (xy 158.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c4d5ff-cde2-48aa-b576-d72f4e932de1")
 	)
 	(wire
 		(pts
@@ -3666,6 +3726,16 @@
 			(type default)
 		)
 		(uuid "ab013d9e-6079-4954-97e6-c49d3336eff1")
+	)
+	(wire
+		(pts
+			(xy 163.83 73.66) (xy 158.75 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57ae14f-208f-45f2-bb87-fc16c4486e6f")
 	)
 	(wire
 		(pts
@@ -3800,6 +3870,17 @@
 		)
 		(uuid "03150a0a-772a-4920-a998-6a561469e153")
 	)
+	(hierarchical_label "USB Data +"
+		(shape input)
+		(at 163.83 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ec069bf-2282-496e-9451-87f2fdc9f394")
+	)
 	(hierarchical_label "BARO_SCL"
 		(shape input)
 		(at 163.83 101.6 0)
@@ -3821,6 +3902,17 @@
 			(justify left)
 		)
 		(uuid "221f0b9d-8609-4cbd-a870-df748c87d73a")
+	)
+	(hierarchical_label "USB Data -"
+		(shape input)
+		(at 163.83 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "293df853-c9f2-4f02-8871-1b2353184fd8")
 	)
 	(hierarchical_label "BARO_INT"
 		(shape input)
@@ -3844,6 +3936,28 @@
 		)
 		(uuid "5f4f9db7-4792-4f70-bd44-74c6e3bde1de")
 	)
+	(hierarchical_label "SBC RTS"
+		(shape input)
+		(at 163.83 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6659c0ee-3c60-4905-98d7-3e4fe4c53fb1")
+	)
+	(hierarchical_label "SBC TX"
+		(shape input)
+		(at 163.83 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "736d96c6-4e41-4924-aee4-3abe757c8c1d")
+	)
 	(hierarchical_label "IMU_FSYNC"
 		(shape input)
 		(at 163.83 45.72 0)
@@ -3865,6 +3979,28 @@
 			(justify left)
 		)
 		(uuid "9192ad87-ce5e-43eb-baba-3915f435537f")
+	)
+	(hierarchical_label "SBC RX"
+		(shape input)
+		(at 163.83 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfeccbb9-87a5-460d-911d-31237eed1eed")
+	)
+	(hierarchical_label "SBC CTS"
+		(shape input)
+		(at 163.83 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2776964-0c87-4afd-8448-c4f32adc5b65")
 	)
 	(hierarchical_label "IMU_AD0"
 		(shape input)
