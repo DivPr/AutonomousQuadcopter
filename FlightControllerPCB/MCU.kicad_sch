@@ -4230,6 +4230,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "+ extra solder pads\n"
+		(exclude_from_sim no)
+		(at 42.164 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a95318e-1b72-4a01-96c1-b9e167c9b9a4")
+	)
+	(text "ESC conn"
+		(exclude_from_sim no)
+		(at 239.268 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "925f8431-10a4-4aa4-8aba-d814ac07a223")
+	)
+	(text "+ extra solder pads\n"
+		(exclude_from_sim no)
+		(at 41.402 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4496f08-d6f1-4318-835a-2714fef5cecf")
+	)
 	(junction
 		(at 73.66 27.94)
 		(diameter 0)
